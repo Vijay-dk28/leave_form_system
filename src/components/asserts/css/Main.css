@@ -1,0 +1,48 @@
+.logo{
+    width: 260px;
+    margin-left: 30px;
+}
+
+.title{
+    text-align: center;
+    margin-top: 15px;
+}
+
+p{
+    text-align: center;
+}
+
+.navcontain{
+    font-size: 18px;
+}
+
+.navclick:hover{
+    background-color: #cb7230;
+    border-radius: 7px;
+}
+
+.navclick:active{
+    background-color: #cb7230;
+    border-radius: 7px;
+    opacity: 0.5;
+}
+
+.cardcon:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease-in-out; 
+
+}
+
+  .cardcon {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    border: none !important; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.custom-card-bg {
+    background-color: red; /* You can change this color to whatever you prefer */
+  }

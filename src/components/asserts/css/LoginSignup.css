@@ -1,0 +1,75 @@
+body, html {
+    height: 100%;
+  }
+
+.bg {
+    background-image: url("T:\vijayreact\vijays\myprj\src\components\asserts\images\project1.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.color-overlay{
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    height: 100%;
+    width: 100%;
+    mix-blend-mode: normal;
+ 
+}
+
+form{
+    width: 30%;
+    height: 75%;
+  overflow-y: scroll;
+
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+.label{
+    font-size: 40px;
+}
+
+.con:hover{
+    background-color: #cb7230;
+    opacity: 0.8;
+}
+
+.mid{
+    text-decoration: underline;
+    font-size: 16px;
+    
+}
+
+.mid:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.textcontain{
+    font-size: 20px;
+}
+.textcontaincheck{
+    font-size: 18px;
+}
+
+.first{
+    font-size: 18px;
+    
+}
+
+@media (max-width:800px) {
+    form{
+        width: 90%;
+        margin: 10px;
+    }
+    
+}
+
+select{
+    width: 100%;
+}
+
