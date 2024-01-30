@@ -1,6 +1,5 @@
 import React from 'react';
 import '../asserts/css/Main.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Navbar'
 import DynamicCards from './DynamicCards';
 
