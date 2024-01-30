@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Navbar from './Navbar'
 import React, { useState } from 'react';
 import Table from 'react-bootstrap/Table';
