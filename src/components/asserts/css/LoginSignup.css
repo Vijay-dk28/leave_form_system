@@ -3,7 +3,7 @@ body, html {
   }
 
 .bg {
-    background-image: url("T:\vijayreact\vijays\myprj\src\components\asserts\images\project1.jpg");
+    background-image: url("../images/project1.jpg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;

@@ -4,6 +4,7 @@ import {LoginSignup} from './components/StudentDashboard/LoginSignup'
 import { Signup } from './components/StudentDashboard/Signup'
 import { DynamicTable } from './components/StudentDashboard/DynamicTable';
 import { Mainpage } from './components/StudentDashboard/Mainpage';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
